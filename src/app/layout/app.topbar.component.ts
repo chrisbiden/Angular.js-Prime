@@ -23,7 +23,7 @@ export class AppTopBarComponent implements OnInit {
             icon: 'pi pi-chart-bar',
             items: [
               {
-                label: 'common.wallet',
+                label: 'Wallet',
                 icon: 'pi pi-wallet',
                 route: '/wallet',
               },
@@ -33,13 +33,13 @@ export class AppTopBarComponent implements OnInit {
                 route: '/trade',
               },
               {
-                label: 'common.exchange',
+                label: 'Quick Swap',
                 icon: 'pi pi-pencil',
                 route: '/quick-swap',
               },
               {
-                label: 'common.fees',
-                icon: 'pi pi-receipt',
+                label: 'Fees & Limits',
+                icon: 'pi pi-folder-open',
                 route: '/fees',
               },
               {
